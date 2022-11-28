@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./edit-employee.component.css']
 })
 export class EditEmployeeComponent {
+  id=""
+
+  editFunction=()=>
+  {
+    let data:any={
+      "id":this.id
+    }
+    console.log(data)
+  }
 
 }
